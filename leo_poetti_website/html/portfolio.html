@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/portfolio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Open sans Font utilisé pour le reste-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Oswald font utilisé pour les titre-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Léo Poëtti - Portfolio</title>
+</head>
+
+<body>
+  <div class="container_principale">
+    <div class="container_header_navbar">
+      <header>
+        <img class="header_logo" src="../images/logo.png" alt="Logo de Léo Poëtti" width="40px" height="40px">
+        <p class="header_element_one_p">Portfolio</p>
+      </header>
+      <nav class="nav_element_one">
+        <ul class="ul_element_one">
+          <li class="li_nav"><a href="accueil.html">Accueil</a></li>
+          <li class="li_nav"><a href="portfolio.html">Portfolio</a></li>
+          <li class="li_nav"><a href="contact.html">Contact</a></li>
+          <li class="li_nav"><a href="apropos.html">À Propos</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <h3 class="main_h3_one">Voici une présentation de mon portfolio :</h3>
+        <p class="main_p_one">La première
+        partie est consacrée à mes projets personnels, que je partage sur mon profil Github. <br>
+        La deuxième partie de mon portfolio est consacrée à mes projets professionnels, vous y trouverez les projets
+        importants sur lesquels j'ai travaillé dans mon parcours professionnel. <br>
+        Enfin, la dernière partie de mon portfolio est consacrée à mes diplômes et certifications.</p>
+      <!--Début carousel-->
+      <div class="container_portfolio">
+        <div id="carousel">
+          <div id="scene"> <!--3 block-->
+            <div id="left-zone">
+              <div class="main_h3_ul">
+                <h3 class="sommaire">Sommaire :</h3>
+                <ul class="list">
+                  <li class="item">
+                    <input type="radio" id="radio_Cette section montre mes compétences en programmation à travers de petits projets personnels"
+                      name="basic_carousel" value="Cette section montre mes compétences en programmation à travers de petits projets personnels"
+                      checked="checked" />
+                    <label class="label_github"
+                      for="radio_Cette section montre mes compétences en programmation à travers de petits projets personnels">Github</label>
+                    <div class="content content_github"><span class="picto"></span>
+                      <h3 class="h3_carousel">Github</h3>
+                      <p>Cette section montre mes compétences en programmation à travers de petits projets personnels</p>
+                      <button class="button_github" type="button"
+                        onclick="window.location.href = 'https://github.com/Fuertti';" value="github" target="_blank">
+                        Voir Github </button>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <input type="radio"
+                      id="radio_Ici, je présente les projets importants sur lesquels j'ai travaillé dans mon parcours professionnel"
+                      name="basic_carousel"
+                      value="Ici, je présente les projets importants sur lesquels j'ai travaillé dans mon parcours professionnel" />
+                    <label class="label_projets"
+                      for="radio_Ici, je présente les projets importants sur lesquels j'ai travaillé dans mon parcours professionnel">Projets</label>
+                    <div class="content content_projets"><span class="picto"></span>
+                      <h3 class="h3_carousel">Projets</h3>
+                      <p>Ici, je présente les projets importants sur lesquels j'ai travaillé dans mon parcours professionnel</p>
+                      <button class="button_projets" type="button"
+                        onclick="window.location.href = 'https://github.com/Fuertti';" value="github" target="_blank">
+                        Voir Projets </button>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <input type="radio"
+                      id="radio_Je partage mes certifications, mes diplômes et toutes les autres informations pertinentes sur mon parcours académique"
+                      name="basic_carousel"
+                      value="Je partage mes certifications, mes diplômes et toutes les autres informations pertinentes sur mon parcours académique" />
+                    <label class="label_diplomes"
+                      for="radio_Je partage mes certifications, mes diplômes et toutes les autres informations pertinentes sur mon parcours académique">Diplômes</label>
+                    <div class="content content_diplomes"><span class="picto"></span>
+                      <h3 class="h3_carousel">Compétences</h3>
+                      <p>Je partage mes certifications, mes diplômes et toutes les autres informations pertinentes sur mon parcours académique</p>
+                      <button class="button_competences" type="button"
+                        onclick="window.location.href = 'https://www.linkedin.com/in/lpoetti/details/certifications/';" value="linkedin" target="_blank">
+                        Voir Compétences </button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="middle-border"></div>
+            <div id="right-zone"></div>
+          </div>
+        </div>
+        <!--Fin Carousel-->
+    </main>
+  </div>
+</body>
+
+<!--Javascript-->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="app.js"></script>
+
+</html>

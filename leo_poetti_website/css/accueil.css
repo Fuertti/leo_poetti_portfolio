@@ -1,0 +1,25 @@
+main{
+  height: 90%;
+  margin: auto 100px auto 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section_one_one{
+    display: flex;
+    align-items: center;
+}
+
+.section_p_one_one{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.section_two_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

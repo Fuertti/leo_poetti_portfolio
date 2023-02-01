@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 0 50px 0 25px;
+    background-color: #00a0e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    border-bottom: 8px solid black;
+
+}
+
+.img_texte_alternatif{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+h1{
+    color: white; 
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding-left: 30px;
+}
+
+h2{
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 0 50px 25px;
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: white; 
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    color: white; 
+    font-size: 1em;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.menu_navigation{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+.video_principale{
+    margin-top: -3px;
+}
+
+
+.prestation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 130px 0 130px;
+    row-gap: 75px;
+}
+
+.images_prestation{
+    border-radius: 25px
+}
+
+.image_prestation{
+    display: inline-block;
+    position: relative;
+}
+
+.image_prestation .texte_prestation{
+    z-index: 1;
+    position: absolute;
+    vertical-align: middle;
+    padding-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    left: 0;
+    right: 0;
+    top: 10%;
+    color: white;
+}
+
+#sombre{
+    filter: brightness(50%)
+}
+
+.contact{
+    background-color: #123c62;
+    height: 600px;
+    padding: 0 75px 100px 75px;
+    margin-top: -100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.titre_contact{
+    background-color: #123c62;
+    padding-bottom: 100px;
+    padding: 100px;
+    color: white;
+}
+
+.titre_devis{
+    color: white;
+    border-top: solid 7px white;
+    border-radius: 5px;
+    padding: 100px;
+    margin: 0 10% auto 10%;
+}
+
+.img_contact:hover{
+    filter: brightness(50%)
+}
+
+.background_devis{
+    background-color: #123c62;
+    padding-bottom: 200px;
+}
+
+.devis{
+    background-color: white;
+    margin: auto;
+    width: 1075px;
+    border: solid black 7px;
+    border-radius: 20px;
+    color: black;
+    display: grid;
+    grid-template-columns: 430px 1fr;
+}
+
+.devis_texte_principale{
+    font-family : 'Quicksand', sans-serif ;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.formulaire{
+    margin: 25px auto 25px auto;
+    padding: 0 25px 0 25px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.label_input{
+    border-radius: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+    margin-top: 15px;
+    border: solid black 3px;
+    height: 2em;
+}
+
+.texte_et_formulaire{
+    border-left:solid black 7px;
+}
+
+.checkbox_devis{
+    height: 1em;
+    width: 1em;
+    margin: 0 25px 0 25px;
+}
+
+.boutton_validation_devis{
+    display: flex;
+    justify-content: center;
+}
+
+.boutton_validation_devis_inderline{
+
+    width: 200px;
+    height: 75px;
+    margin-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    background-color: #00a0e7;
+    color: white;
+    border: black solid 2px;
+    border-radius: 30px;
+}
+
+footer{
+    background-color: #123c62;
+    height: 175px;
+    margin: auto;
+    padding-top: 50px;
+    border-top: solid 7px white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boutton_validation_devis_inderline:cliked{
+    filter: brightness(50%)
+}
+
+
+.qui_sommes_nous{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+.contact_footer{
+    margin-bottom: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap : 15px
+}
+
+p{
+    margin: auto 0 auto 0;
+}
